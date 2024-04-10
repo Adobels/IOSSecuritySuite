@@ -8,7 +8,7 @@ let package = Package(
     .iOS(.v11)
   ],
   products: [
-    .library(name: "IOSSecuritySuite", targets: ["IOSSecuritySuite"])
+    .library(name: "IOSSecuritySuite", type: .dynamic, targets: ["IOSSecuritySuite"])
   ],
   targets: [
     .target(
